@@ -1,5 +1,6 @@
 'use strict';
 
+
 // Data needed for first part of the section
 const restaurant = {
   name: 'Classico Italiano',
