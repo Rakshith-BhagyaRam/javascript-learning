@@ -234,7 +234,6 @@ restaurant.orderPizza('chicken', 'mushrooms', 'onions', 'spinach');
 
 const resto1 = {
   name: 'capri',
-  // Guests: 20,
   Guests: 20,
 };
 
