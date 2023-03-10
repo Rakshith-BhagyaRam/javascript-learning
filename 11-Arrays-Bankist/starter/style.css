@@ -94,7 +94,7 @@ nav {
   gap: 2rem;
 
   /* NOTE This creates the fade in/out anumation */
-  /* opacity: 0; */
+  opacity: 0;
   transition: all 1s;
 }
 
@@ -218,6 +218,9 @@ nav {
 }
 
 .operation--loan {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+.operation--changepin {
   background-image: linear-gradient(to top left, #39b385, #9be15d);
 }
 
