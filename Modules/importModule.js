@@ -20,11 +20,11 @@ console.log(ShoppingCart.tq)
 // add("bread",3)
 // console.log(tp, tq)
 
-/*
+// /*
 import add , {cart} from './shoppingCart.js';
 add('bread', 3);
 add('pizza', 7);
 add('avacado', 4);
 
 console.log(cart)
-*/
+// */

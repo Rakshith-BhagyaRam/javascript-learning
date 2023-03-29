@@ -1,10 +1,11 @@
 {
-  "name": "starter",
+  "name": "modules",
   "version": "1.0.0",
-  "description": "Module - * module is a Reusable piece of code that encapsulates implementation details;          * usually a stand alone file, but it doesn't have to be.",
-  "main": "ModulePattern.js",
+  "description": "",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Rakshith",
   "license": "ISC",
