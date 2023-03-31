@@ -1,5 +1,5 @@
 // Exporting Module
-console.log('Exporting Module');
+console.log("Exporting Module");
 const shippingCost = 10;
 export const cart = [];
 
@@ -23,4 +23,3 @@ export default function (product, quantity) {
   });
   console.log(`${quantity} ${product}s added to cart`);
 }
-

@@ -1,4 +1,5 @@
 // import cloneDeep from "./node_modules/lodash-es/cloneDeep.js";
+
 import cloneDeep from "lodash-es";
 // import cloneDeep from "lodash";
 
@@ -22,3 +23,19 @@ console.log(stateCloneDeep);
 if (module.hot) {
   module.hot.accept();
 }
+
+class Person {
+  greeting = "hey";
+  constructor(name) {
+    this.name = name;
+    console.log(`${this.greeting}, ${this.name}`);
+  }
+}
+
+const rakshith = new Person("Rakshith");
+console.log("Rakshith" ?? null);
+Promise.resolve("TEST").then(x=> console.log(x))
+
+console.log(state.cart.find((el) => el.quantity >= 2));
+
+
